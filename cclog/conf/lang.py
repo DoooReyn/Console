@@ -1,0 +1,15 @@
+class Lang:
+    class Zh:
+        ServerAddr = "服务器地址"
+        LogContent = "日志内容"
+        SendMessage = "发送消息"
+        InputMessagePlease = "请输入消息内容"
+        BtnConnect = "连接"
+        BtnDisconnect = "断开"
+        BtnSend = "发送"
+        BtnClear = "清空"
+        ConnectionEstablished = "连接建立！"
+        ConnectionClosed = "连接关闭！"
+        IllegalServerAddr = "非法地址 "
+        WaitMinute = "连接未关闭，请稍后再试！"
+        ThreadClosed = "线程{0} id:{1} 关闭"

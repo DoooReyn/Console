@@ -15,7 +15,7 @@
 ### 完整项目流程
 
 - 在 Cocos2d-x 创建 websocket server
-- 在 GUI 创建 websocket client
+- 在 Console GUI 创建 websocket client
 - Lua 层格式化日志消息，通过 websocket 转发给 Console
 - Console 收到消息后打印出来
 

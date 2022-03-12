@@ -7,8 +7,8 @@
 ### 特性
 
 - 支持日志等级分类控制
-- 支持给客户端发消息，可以用来**自定义指令**
 - 支持 WebSocket 断线重连
+- 支持给 Cocos2d-x 客户端发消息，可以用来**自定义指令**，控制客户端行为
 
 ## 二、设计架构
 
@@ -20,6 +20,7 @@
 - Console 收到消息后打印出来
 
 ### 依赖项
+
 - Cocos2d-x
     - [cocos2d-x-lws](https://github.com/DoooReyn/cocos2d-x-lws)
     - [lua_format_log](https://github.com/DoooReyn/lua_format_log)

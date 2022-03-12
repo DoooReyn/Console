@@ -12,15 +12,14 @@
 
 ## 二、设计架构
 
-### 完整项目流程
+### 工作流
 
 - 在 Cocos2d-x 创建 websocket server
 - 在 Console GUI 创建 websocket client
 - Lua 层格式化日志消息，通过 websocket 转发给 Console
 - Console 收到消息后打印出来
 
-### 完整项目依赖
-
+### 依赖项
 - Cocos2d-x
     - [cocos2d-x-lws](https://github.com/DoooReyn/cocos2d-x-lws)
     - [lua_format_log](https://github.com/DoooReyn/lua_format_log)
